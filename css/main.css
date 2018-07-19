@@ -1,32 +1,10 @@
 /* Text Elements */
 
-h1 {
-  color: #fff;
-  text-align: right;
-  font-weight: 100;
-  font-size: 4em;
-  font-family: 'Montserrat', cursive;
-}
 h1.heading-4 {
   color: #fff;
   text-align: center;
   font-weight: 100;
-  font-size: 4em;
-  font-family: 'Montserrat', cursive;
-}
-.mainheader {
-
-  font-family: 'Montserrat';
-  text-align: center;
-  font-size: 4em;
-  font-weight: 400;
-
-}
-.herotext {
-  color: #fff;
-  text-align: center;
-  font-weight: 200;
-  font-size: 4em;
+  font-size: 2em;
   font-family: 'Montserrat', cursive;
 }
 
@@ -43,6 +21,10 @@ h2.heading-2-1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 220%;
+  font-family: 'Roboto Condensed', cursive;
+}
+
+h2.heading-3 {
   font-family: 'Roboto Condensed', cursive;
 }
 
@@ -146,7 +128,7 @@ ul.link-list.menu {
 
 ul.link-list.medium-horizontal.menu.simple.vertical {
   position: relative;
-  float: none;
+  float: left;
   background-color: #232323;
 }
 
@@ -955,17 +937,6 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 0;
   }
 
-  p.paragraph a.paragraph-text-1 {
-    color: #e9e9e9;
-    line-height: 1.74;
-  }
-
-  p.paragraph a.paragraph-text-1:hover {
-    color: #ffe59e;
-    font-size: 1.5625rem;
-    line-height: 1.74;
-  }
-
   span.text-element.text-2 {
     color: #fff;
     text-align: center;
@@ -1152,5 +1123,9 @@ li.list-item-link.menu-link:hover > a {
   div.responsive-picture.picture-1 {
     position: relative;
     width: 100%;
+  }
+
+  .html-element.html-element-2 {
+    text-align: center;
   }
 }
